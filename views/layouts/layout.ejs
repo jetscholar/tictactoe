@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+
+    <title>Tic Tac Toe</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="/css/styles.css">
+
+    </head>
+
+    <body>
+        <h1>Tic Tac Toe</h1>
+        <div>
+        <table id='Table'>
+        <tr>
+            <td id="t1" onclick="one()"></td>
+            <td id="t2" onclick="two()"></td>
+            <td id="t3" onclick="three()"></td>
+        </tr>
+        <tr>
+            <td id="t4" onclick="four()"></td>
+            <td id="t5" onclick="five()"></td>
+            <td id="t6" onclick="six()"></td>
+        </tr>
+        <tr>
+            <td id="t7" onclick="seven()"></td>
+            <td id="t8" onclick="eight()"></td>
+            <td id="t9" onclick="nine()"></td>
+        </tr>
+        </table>
+        <h2>Game Score:</h2>
+        <h3 id='cScore'>Computer - 0</h3>
+        <h3 id='pScore'>Player - 0</h3>
+        </div>
+        <div id="fin" class="invis">
+        <h3 id="winner">77f</h3>
+        <button onclick="again()">Play Again</button>
+        </div>
+
+        <script src="/js/script.js"></script>
+    </body>
+
+</html>
